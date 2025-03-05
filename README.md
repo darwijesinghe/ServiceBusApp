@@ -9,11 +9,11 @@ This is a practice project designed to understand how Azure Service Bus works. T
 
 ## Project Structure
 1. **API Project** 
-  - Exposes an endpoint to send messages to Azure Service Bus.
+- Exposes an endpoint to send messages to Azure Service Bus.
 2. **Console App** 
-  - Listens for messages and processes them upon receiving.
+- Listens for messages and processes them upon receiving.
 3. **Shared Library** 
-  - Contains common functionality for interacting with Azure Service Bus (e.g., message sending, processing, error handling).
+- Contains common functionality for interacting with Azure Service Bus (e.g., message sending, processing, error handling).
 
 ## Packages
 - Azure.Messaging.ServiceBus
